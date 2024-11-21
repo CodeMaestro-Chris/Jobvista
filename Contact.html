@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your profile</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./Images/Jobvista green.png">
+    <link rel="stylesheet" href="./CSS/aos.css" />
+</head>
+<body>
+    
+  <div id="preloader"><img src="./Images/Jobvista_green-removebg-preview.png" width="350px" class="preani"></div>
+  <nav class="navbar mynav navbar-expand-md">
+      <div class="container-fluid">
+      <a href="./Index.html" class="nav-link"><img src="./Images/Jobvista_green_2-removebg-preview.png" alt="logo" id="logo"/></a>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="details">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link navhome" href="./Home Page.html" id="home3">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link navab" id="home" href="./About.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link navser" id="home2" href="./Services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link navcon" id="at" style="color: #24262c; border-bottom:2px solid #24262c;" href="./Contact.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <div class="book">
+                      
+                          <li class="dropdown">
+                              <a class="acc">My Account <span class="fa fa-user"></span></a>
+                              <div class="content">
+                                  <button class="btn log" id="log">
+                                      <a class="nav-link hovSign" href="#">Sign In</a>
+                                  </button>
+                                  <button id="reg" class="btn reg"><a class="nav-link re" id="re" href="#">
+                                      Create an account
+                                      </a>
+                                  </button>    
+                              </div>
+                              
+                          </li>
+                      
+                  </div>
+              </ul>
+          </div>
+          
+      </div>   
+    </nav>
+    <nav class="navbar navbar-expand-md smnav">
+      <div class="container-fluid">
+      <img src="./Images/Jobvista_green_2-removebg-preview.png" alt="logo" id="logo" width="46%"/>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarTogglerDemo02"
+      aria-controls="navbarTogglerDemo02"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div class="details">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="./Home Page.html" id="at" style="color: #24262c; border-bottom:2px solid #24262c;">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="home3" href="./About.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="home2" href="./Services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" id="home" href="./Profile.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <button class="btn log" id="log">
+                      <a class="nav-link hovSign" href="#" onclick="document.querySelector('.modal').style.display = 'block'">Sign In</a>
+                      </button>
+                      <button id="reg" class="btn reg"><a class="nav-link re" id="re" href="#">
+                          Create an account   
+                      </a>
+                      </button> 
+              </ul>
+          </div>
+      </div>              
+  </nav>
+
+    <div class="conhero">
+      <!-- <h4>CONTACT</h4> -->
+      <h1>We'd love to talk about how <br> we can work together</h1>
+      <p>The only corporate card and job recruitment platform designed to sharpen your career</p>
+      <button class="btn">Get started</button>
+    </div>
+    <div class="connectHeader container-fluid pt-5">
+      <h4 class="mt-5 abtHead text-center mb-3" data-aos="zoom-in-down" data-aos-duration="1000">LET'S TALK</h4>
+      <h4 class="display-6 text-center fw-bold" data-aos="zoom-in-up" data-aos-duration="1000">
+          Contact Us
+      </h4>
+  </div>
+  <div class="container-fluid connectForm">
+    <section class="contact" id="contact">
+      <form action="./thanks.html"
+          name="aboutForm2"
+          class="p-3 mb-5"
+          method="post"
+          onsubmit="return myvalid2()"
+          data-netlify="true">  
+          <div class="inputBox">
+              <div class="errorHold">
+                  <input type="text" placeholder="your name" id="name">
+                  <span id="e1"> .pls lgkgk</span>
+              </div>
+              <div class="errorHold">
+                  <input type="email" placeholder="your email" id="email">
+                  <span id="e2"> .pls lgkgk</span>
+              </div>
+          </div>
+          <div class="inputBox">
+              <div class="errorHold">
+                  <input type="text" placeholder="your phone number" id="phoneNo">
+                  <span id="e3"> .pls lgkgk</span>
+              </div>
+              <div class="errorHold">
+                  <input type="text" placeholder="your address" id="address">
+                  <span id="e4"> .pls lgkgk</span>
+              </div>
+          </div>
+          <div class="errorHold2">
+              <textarea placeholder="Describe Your Project" cols="30" rows="10" id="project"></textarea>
+              <span id="e5"> .pls lgkgk</span>
+          </div>
+          <div class="formInput">
+            <button type="submit" class="button connectBtn2">Submit Request</button>
+        </div>
+      </form>
+  </section>
+  </div>
+  <div class="row container loc">
+    <div class="loc1 col-xs-12 col-sm-12 col-md-12 col-lg-6">
+      <img src="./Images/slide-34.jpg" alt="">
+    </div>
+    <div class="loc2 col-xs-12 col-sm-12 col-md-12 col-lg-6">
+      <div class="row">
+        <h4>LOCATION</h4>
+        <h2>Our Offices</h2>
+        <p>We are built for recruiters and hiring managers who care about their applicants.</p>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <h5>Lagos, Nigeria</h5>
+        <p>34 Eniola Street <br>
+          +234 703 1045 269 <br>
+          jobvistalagos@gmail.com
+        </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <h5>Abia, Nigeria</h5>
+        <p>54 Azikiwe Road <br>
+          +234 905 6852 675 <br>
+          jobvistaaba@gmail.com
+        </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <h5>New York, USA</h5>
+        <p>A108 Adam Street <br>
+          +1 5589 55488 55 <br>
+          jobvistanyusa@email.com
+        </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+          <h5>Torornto, Canada</h5>
+          <p>124 Stamford Street <br>
+            +1 250 5550 199 <br>
+            jobvistacanada@yahoo.com
+          </p>
+          </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal -->
+   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <center><img src="./Images/Jobvista green.png" alt="" class="modal-title fs-5" id="exampleModalLabel"></center> 
+                <form id="myForm" onsubmit="return subm()">
+                  <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" required>
+                    <div class="invalid-feedback">Please enter your name.</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email" required>
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                  </div>
+                  <div class="form-group">
+                    <label for="mobile">Email:</label>
+                    <input type="text" class="form-control" id="email" required>
+                    <div class="invalid-feedback">Please enter a valid email address.</div>
+                  </div>
+                  <button type="submit" class="btn reg">Submit</button>
+                </form>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="foot row container">
+    <div class="fordev col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <h5 class="mb-4">FOR DEVELOPERS</h5>
+        <p>Docs</p>
+        <p>Blog</p>
+        <p>Tutorials</p>
+        <p>System status</p>
+    </div>
+    <div class="res col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <h5 class="mb-4">FOR BRANDS</h5>
+        <p>Brands</p>
+        <p>Publishers</p>
+        <p>Style guide</p>
+        <p>Performance Marketing</p>
+    </div>
+    <div class="res col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <h5 class="mb-4">PHOTOGRAPHY</h5>
+        <p>Events</p>
+        <p>Blogs</p>
+        <p>Portfolio</p>
+        <p>Case studio</p>
+    </div>
+    <div class="ab col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <h5 class="mb-4">ABOUT JOBVISTA</h5>
+        <p><a href="./Services.html" class="nav-link">Services</a></p>
+        <p><a href="/About.html" class="nav-link">About Us</a></p>
+        <p><a href="./Services.html" class="nav-link">Contact Us</a></p>
+        <p><a href="#" class="nav-link">Press/news</a></p>
+    </div>
+    <hr>
+    <div class="port row align-items-center">
+        <div class="terms part col-xs-12 col-sm-12 col-md-6 col-lg-4"><span>Terms</span><span> Privacy</span><span> All Rights Reserved</span></div>
+        <div class="copyr col-xs-12 col-sm-12 col-md-6 col-lg-4"><span class="yr">© 2024 Jobvista</span><span class="myname"> by Code_maestro_Chris</span></div>
+        <div class="platforms col-xs-12 col-sm-12 col-md-6 col-lg-4"><span class="fa fa-twitter"></span><span class="fa fa-facebook" style="padding: 7px 10px;"></span><span class="fa fa-youtube"></span><span class="fa fa-whatsapp"></span><span class="fa fa-instagram"></span></div>
+    </div>
+    </div>
+</footer>
+            
+    
+    <script src="./js/bootstrap.bundle.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/aos.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+</html>
