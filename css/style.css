@@ -3,7 +3,6 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    /* background-color: #0C5D34; */
 }
 #preloader{
     width:100%;
@@ -24,8 +23,10 @@ body{
     animation-delay: 1s ease forwards;
     animation-duration: 1.3s;
 }
+
+/* Navigation Bar */
 .mynav{
-    padding: 10px 3% !important;
+    padding: 15px 3% !important;
     display: flex !important;
     align-items: center !important;
     position: sticky;
@@ -104,6 +105,7 @@ body{
     border-radius: 5px;
     color:#88cc5e !important;
 }
+/* android navbar */
 .smnav{
     display: none !important;
 }
@@ -140,6 +142,7 @@ li a:hover, .dropdown:hover a{
 }
 /* Nav bar ends here */
 
+/* Hero Section */
 .her{
     z-index: 2;
 }
@@ -210,10 +213,8 @@ li a:hover, .dropdown:hover a{
 
 .space{
     position: relative;
-    /* background-color: #0C5D34; */
     width: 100% !important;
     color: white;
-    /* margin-top: 35px; */
 }
 .to-the-top{
     text-align: center;
@@ -231,7 +232,6 @@ li a:hover, .dropdown:hover a{
 }
 .works{
     margin: 0 auto;
-    /* background-color: #0C5D34; */
     color: #24262c;
     padding: 5px;
 }
@@ -259,6 +259,7 @@ li a:hover, .dropdown:hover a{
 }
 /* how it works ends */
 
+/* Why Choose us  */
 .space{
     margin-top: 6rem;
     padding-top: 1rem;
@@ -290,11 +291,9 @@ li a:hover, .dropdown:hover a{
 .sec-1 h1{
     margin-top: 10px;
     font-weight: bold;
-    /* margin-bottom: 18px; */
 }
 .perfect{
     padding-right: 50px;
-    /* background-image: linear-gradient(180deg,); */
 }
 .sec-1 .find-2 span{
     border-left: 3px solid #5abd1c;
@@ -302,106 +301,27 @@ li a:hover, .dropdown:hover a{
     font-size: 18px;
     font-weight: 450;
 }
-
-/*animation styling*/
-/* .animate{
-    opacity: 0;
-    transform: translateX(-70%);
-    transition: 0.7s;
-}
-.animate2{
-    opacity: 0;
-    filter: blur(1px);
-    transition-delay: 200ms;
-    transform: translateX(-70%);
-}
-.animate3{
-    opacity: 0;
-    filter: blur(1px);
-    transition-delay: 300ms;
-    transform: translateX(-70%);
-}
-.animate4{
-    opacity: 0;
-    filter: blur(1px);
-    transition-delay: 400ms;
-    transform: translateX(-70%);
-}
-.perpic{
-    opacity: 0;
-    filter: blur(2px);
-    transition-delay: 100ms;
-    transform: translateX(-60%);
-}
-.show{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-}
-.fadeon{
-    opacity: 0;
-    transition: 1.5s;
-}
-.fadeoff{
-    opacity: 1;
-    transition: 1.5s;
-}
-.textup{
-    opacity: 0;
-    filter: blur(0.1px);
-    transform: translateY(60%);
-    transition: 0.7s;
-}
-.heroup{
-    margin-top: 10px;
-    opacity: 0;
-    filter: blur(0.1px);
-    transform: translateY(25%);
-    transition: 0.7s;
-}
-.goup{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateY(0%);
-}
-.showup{
-    opacity: 1;
-    filter: blur(0);
-    transform: translateY(0%);
-} */
-/*end of animations*/
-
-
 .find-2 .full{
-    /* transition-delay: 150ms;
-    font-size: 18px; */
     line-height: 30px;
     font-weight: 480;
 }
 .find-2 .meet{
-    /* transition-delay: 250ms;
-    font-size: 18px; */
     line-height: 30px;
     font-weight: 480;
 }
 .find-2 .tech{
-    /* transition-delay: 350ms;
-    font-size: 18px; */
     line-height: 30px;
     font-weight: 480;
 }
 .find-2 .comfort{
-    /* transition-delay: 400ms;
-    font-size: 18px; */
     line-height: 30px;
     font-weight: 480;
 }
 .find-2 .part{
-    /* transition-delay: 450ms;
-    font-size: 18px; */
     line-height: 30px;
     font-weight: 480;
 }
+/* Brands Section */
 .brands{
     margin: 50px auto 80px;
 }
@@ -419,6 +339,8 @@ li a:hover, .dropdown:hover a{
 .brands h1{
     font-weight:bold;
 }
+
+
 .lgpl{
     padding-left: 30px !important;
 }
@@ -449,6 +371,8 @@ li a:hover, .dropdown:hover a{
     background-color: #242424;
     color: white;
 }
+
+
 .digital{
     margin: 80px auto 100px;
 }
@@ -466,6 +390,8 @@ li a:hover, .dropdown:hover a{
     border-radius: 10px;
     width: 100%;
 }
+
+/* Get More Information Section  */
 .more{
     border-radius: 10px;
     margin: 50px auto 80px;
@@ -495,6 +421,8 @@ li a:hover, .dropdown:hover a{
     background-color: #5abd1c;
     color: white !important;
 }
+
+/* Website Footer Section */
 footer{
     background-color: #0C5D34;
     color: white;
@@ -532,6 +460,11 @@ footer .port .platforms span:hover{
 footer .port .copyr{
     padding-left: 2%;
 }
+
+/* 
+    About Us Page 
+*/
+/* About Page Hero Section  */
 .slidey{
     height: 115vh;
 }
@@ -596,7 +529,6 @@ footer .port .copyr{
     margin-top: 1.7em;
 }
 .mission{
-    /* color: white; */
     margin: 50px auto;
 }
 .mistext{
@@ -631,6 +563,11 @@ footer .port .copyr{
     font-weight: bold;
     color:#24262c;
 }
+
+/* 
+    Services Page 
+*/
+/* Services Hero Section  */
 .hero2{
     height: 80vh;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(../Images/banner.jpg);
@@ -924,19 +861,22 @@ footer .port .copyr{
     width: 23.5%;
     margin-bottom: 15px;
 }
-.team h1{
-    margin-bottom: 30px;
+h1.team-header{
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 .team img{
     width: 100%;
     border-radius: 10px 10px 3px 3px;
     margin: 0 auto;
 }
-.team h3{
+h3.team-head{
     color: #5abd1c;
     font-weight: bold;
     line-height: 50px;
-    margin-bottom: 18px;
+    margin-top: 30px;
+    text-align: center;
 }
 .team h4{
     font-size: 22.5px;
@@ -956,6 +896,8 @@ footer .port .copyr{
     margin-top: 60px;
     margin-bottom: 80px;
 }
+
+/* Hero Section of Contact Page */
 .conhero{
     height: 80vh;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.8)), url(../Images/banner-3.jpg);
@@ -1019,6 +961,8 @@ footer .port .copyr{
     width: 100% !important;
     height: auto;
 }
+
+/* Form of Contact Page */
 .contact form{
   width: 70%;
   margin: auto;
@@ -1265,7 +1209,6 @@ form .inputBox{
     height: 100vh;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.637), rgba(0, 0, 0, 0.61)), url('../Images/pexels-kindel-media-7688460.jpg');
     background-position: center top;
-    /* background-repeat: no-repeat; */
     background-size: cover;
     color: white;
     display: flex;
@@ -1285,7 +1228,6 @@ form .inputBox{
     padding: 9px 15px;
     font-weight: 600;
     border: none;
-    /* margin-top: 10px; */
     text-align: center;
     font-size: 20px;
     box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.254); 
@@ -1310,7 +1252,7 @@ form .inputBox{
 }
 
 
-
+/* Keyframe Animations */
 @keyframes fade {
     0%{
         opacity: 0;
@@ -1361,7 +1303,12 @@ form .inputBox{
     }
 }
 
-
+@media screen and (max-width:375px){
+    .carousel-item{
+        margin-bottom: 50px;
+    }
+}
+/* Android view */
 @media screen and (max-width:480px){
     body{
         overflow-x: hidden;
@@ -1599,13 +1546,15 @@ form .inputBox{
     .team{
         margin: 80px auto 30px;
         text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     .team .mem1{
         box-shadow: 0 0 7px 0 #0c5d3544;
         padding: 15px 15px 5px;
         border-radius: 10px;
         margin-right: 20px;
-        width: 45%;
+        width: 100%;
         margin-bottom: 20px;
         transition-delay: 100ms;
     }
@@ -1614,7 +1563,7 @@ form .inputBox{
         padding: 15px 15px 5px;
         border-radius: 10px;
         /* margin-right: 16px; */
-        width: 45%;
+        width: 100%;
         margin-bottom: 20px;
         transition-delay: 250ms;
     }
@@ -1623,7 +1572,7 @@ form .inputBox{
         padding: 15px 15px 5px;
         border-radius: 10px;
         margin-right: 20px;
-        width: 45%;
+        width: 100%;
         margin-bottom: 20px;
         transition-delay: 350ms;
     }
@@ -1632,7 +1581,7 @@ form .inputBox{
         padding: 15px 15px 5px;
         border-radius: 10px;
         /* margin-right: 16px; */
-        width: 45%;
+        width: 100%;
         margin-bottom: 20px;
         transition-delay: 450ms;
     }
@@ -1641,7 +1590,7 @@ form .inputBox{
         padding: 15px 15px 5px;
         border-radius: 10px;
         margin-right: 20px;
-        width: 45%;
+        width: 100%;
         margin-bottom: 20px;
     }
     .team .mem6{
@@ -1649,7 +1598,7 @@ form .inputBox{
         padding: 15px 15px 5px;
         border-radius: 10px;
         margin-right: 16px;
-        width: 45%;
+        width: 100%;
         margin-bottom: 20px;
     }
     .team .mem7{
@@ -1657,7 +1606,7 @@ form .inputBox{
         padding: 15px 15px 5px;
         border-radius: 10px;
         margin-right: 16px;
-        width: 45%;
+        width: 100%;
         margin-bottom: 20px;
     }
     .team .mem8{
@@ -1665,7 +1614,7 @@ form .inputBox{
         padding: 15px 15px 5px;
         border-radius: 10px;
         margin-right: 20px;
-        width: 45%;
+        width: 100%;
         margin-bottom: 20px;
     }
     .conhero{
@@ -1698,6 +1647,8 @@ form .inputBox{
         width: 240px !important;
     }
  }
+
+ /* Ipad view */
 @media screen and (max-width:1024px){
     body{
         overflow-x: hidden;
@@ -1726,7 +1677,7 @@ form .inputBox{
         width: 150px;
     }
     .mynav .reg{
-        width: 180px;
+        /* width: 180px; */
         padding: 1px;
         border: none;
         border-radius: 28px;
@@ -1750,10 +1701,14 @@ form .inputBox{
     .acc{
         background-color: #0C5D34;
         padding: 10px 16px;
+        width: 600px !important;
         border-radius: 25px;
         font-size: 18.5px !important;
         color:white !important;
         text-decoration: none;
+    }
+    .mynav .fa-user{
+        display: none;
     }
     .hero h1{
         font-size: 34px;
@@ -1815,6 +1770,9 @@ form .inputBox{
     .slidey div{
         height: 45vh;
     }
+    .slidey{
+        margin-bottom: 50px;
+    }
     .carousel-item::before{
         height: 45vh;
     }
@@ -1837,6 +1795,78 @@ form .inputBox{
         opacity: 1;
         filter: blur(0);
         transform: translateY(-15%);
+    }
+    .team{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .team .mem1{
+        box-shadow: 0 0 7px 0 #0c5d3544;
+        padding: 15px 15px 5px;
+        border-radius: 10px;
+        margin-right: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        transition-delay: 100ms;
+    }
+    .team .mem2{
+        box-shadow: 0 0 7px 0 #0c5d3544;
+        padding: 15px 15px 5px;
+        border-radius: 10px;
+        /* margin-right: 16px; */
+        width: 100%;
+        margin-bottom: 20px;
+        transition-delay: 250ms;
+    }
+    .team .mem3{
+        box-shadow: 0 0 7px 0 #0c5d3544;
+        padding: 15px 15px 5px;
+        border-radius: 10px;
+        margin-right: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+        transition-delay: 350ms;
+    }
+    .team .mem4{
+        box-shadow: 0 0 7px 0 #0c5d3544;
+        padding: 15px 15px 5px;
+        border-radius: 10px;
+        /* margin-right: 16px; */
+        width: 100%;
+        margin-bottom: 20px;
+        transition-delay: 450ms;
+    }
+    .team .mem5{
+        box-shadow: 0 0 7px 0 #0c5d3544;
+        padding: 15px 15px 5px;
+        border-radius: 10px;
+        margin-right: 20px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .team .mem6{
+        box-shadow: 0 0 7px 0 #0c5d3544;
+        padding: 15px 15px 5px;
+        border-radius: 10px;
+        margin-right: 16px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .team .mem7{
+        box-shadow: 0 0 7px 0 #0c5d3544;
+        padding: 15px 15px 5px;
+        border-radius: 10px;
+        margin-right: 16px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .team .mem8{
+        box-shadow: 0 0 7px 0 #0c5d3544;
+        padding: 15px 15px 5px;
+        border-radius: 10px;
+        margin-right: 20px;
+        width: 100%;
+        margin-bottom: 20px;
     }
     .story{
         margin-top: -47em;
@@ -1899,7 +1929,7 @@ form .inputBox{
         display: block;
     }
 }
-@media screen and (min-width:1024px){
+@media screen and (min-width:1024px) and (max-width: 1367px){
     .disappear{
         display: none;
     }
@@ -1909,4 +1939,7 @@ form .inputBox{
     .pt{
         display: none !important;
     }
+    .slidey{
+        margin-bottom: 1em;
+    }   
 }
